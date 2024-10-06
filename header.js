@@ -6,8 +6,8 @@ export function renderHeader() {
             <h3>My learning journal</h3>
         </div>
         <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About Me</a>
+            <a href="/">Home</a>
+            <a href="about-me.html">About Me</a>
         </div>
     `;
     document.body.prepend(header);
