@@ -129,7 +129,8 @@ article.featured-article img {
 article.featured-article h1, 
 article.featured-article p, 
 article.featured-article time {
-  color: #ffffff
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .view-more-link {
