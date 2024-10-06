@@ -13,7 +13,7 @@ export const articles = [
         imageUrl: "images/article-2.png",
         imageAlt: "A laptop screen displaying a code editor on a desk",
         date: "2024-09-23",
-        title: "Blog one",
+        title: "Bootcamp pros and cons",
         body: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         featured: false
     },
@@ -22,7 +22,7 @@ export const articles = [
         imageUrl: "images/article-3.png",
         imageAlt: "A hand holding a light bulb",
         date: "2024-08-23",
-        title: "Blog two",
+        title: "Scrimba's Frontend Developer Career Path",
         body: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         featured: false
     },
@@ -31,7 +31,7 @@ export const articles = [
         imageUrl: "images/article-4.png",
         imageAlt: "A laptop screen displaying some inspirational text",
         date: "2024-07-23",
-        title: "Blog three",
+        title: "How to build a responsive website",
         body: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         featured: false
     },

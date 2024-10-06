@@ -25,9 +25,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 0.85rem;
   color: #0E0E0E;
   background-color: #ffffff;
 }
@@ -36,6 +33,9 @@ header {
   display: flex;
   align-items: center;
   gap: 0.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
 }
 
 .logo-lockup img {
@@ -61,7 +61,7 @@ header {
   opacity: 0.5;
 }
 
-main {
+.article-container {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 0.5em;
@@ -179,12 +179,20 @@ footer p {
 }
 
 @media (min-width: 768px) {
-  main {
+  .article-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   .featured-article {
     grid-column: 1 / 4;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .logo-lockup {
+    font-size: 1rem;
   }
 
 }

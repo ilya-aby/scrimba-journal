@@ -1,4 +1,6 @@
 import { articles } from './articles.js';
+import { renderHeader } from './header.js';
+import { renderFooter } from './footer.js';
 
 const formatDate = (dateString) => {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -6,7 +8,7 @@ const formatDate = (dateString) => {
 };
 
 function renderArticles() {
-  const articleContainer = document.querySelector('main');
+  const articleContainer = document.querySelector('.article-container');
   const articleHtml = articles.map((article, index) => {
     return `
     <article class="${article.featured ? 'featured-article' : ''}">
@@ -20,4 +22,6 @@ function renderArticles() {
   articleContainer.innerHTML = articleHtml;
 }
 
+renderHeader();
+renderFooter();
 renderArticles();
