@@ -12,7 +12,7 @@ function renderArticles() {
     <article class="${article.featured ? 'featured-article' : ''}">
       <img src="${article.imageUrl}" alt="${article.imageAlt}">
       <time datetime="${article.date}">${formatDate(article.date)}</time>
-      <h1>${article.title}</h1>
+      <h1><a href="#">${article.title}</a></h1>
       <p>${article.body}</p>
     </article>
     `
